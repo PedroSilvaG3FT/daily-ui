@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-boilerplate": {
+    "daily-ui": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -21,7 +21,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-boilerplate",
+            "outputPath": "dist/daily-ui",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -97,10 +97,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-boilerplate:build:production"
+              "buildTarget": "daily-ui:build:production"
             },
             "development": {
-              "buildTarget": "angular-boilerplate:build:development"
+              "buildTarget": "daily-ui:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -108,7 +108,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "angular-boilerplate:build"
+            "buildTarget": "daily-ui:build"
           }
         },
         "test": {
@@ -129,7 +129,7 @@
           "builder": "@storybook/angular:start-storybook",
           "options": {
             "configDir": ".storybook",
-            "browserTarget": "angular-boilerplate:build",
+            "browserTarget": "daily-ui:build",
             "compodoc": true,
             "compodocArgs": ["-e", "json", "-d", "."],
             "port": 6006
@@ -139,7 +139,7 @@
           "builder": "@storybook/angular:build-storybook",
           "options": {
             "configDir": ".storybook",
-            "browserTarget": "angular-boilerplate:build",
+            "browserTarget": "daily-ui:build",
             "compodoc": true,
             "compodocArgs": ["-e", "json", "-d", "."],
             "outputDir": "storybook-static"

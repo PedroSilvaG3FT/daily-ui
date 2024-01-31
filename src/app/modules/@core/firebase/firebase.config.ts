@@ -1,10 +1,11 @@
 export const FIREBASE_CONFIG = {
-  messagingSenderId: `335970945542`,
-  projectId: `angular-boilerplate-3ed98`,
-  apiKey: `AIzaSyA4B0hgx9-YXrsEonDXi_sk6NzKgibQ3NM`,
-  appId: `1:335970945542:web:6e319af6f596c1d4299187`,
-  storageBucket: `angular-boilerplate-3ed98.appspot.com`,
-  authDomain: `angular-boilerplate-3ed98.firebaseapp.com`,
+  projectId: 'daily-db-eda97',
+  measurementId: 'G-4G23MN7QJL',
+  messagingSenderId: '1763875084',
+  storageBucket: 'daily-db-eda97.appspot.com',
+  authDomain: 'daily-db-eda97.firebaseapp.com',
+  appId: '1:1763875084:web:61586f73b97f8760705129',
+  apiKey: 'AIzaSyC6I0xH3XO-GkWOx_nF617lMBremR25g2c',
 };
 
 export const FIREBASE_CONFIG_STAGING = FIREBASE_CONFIG;
