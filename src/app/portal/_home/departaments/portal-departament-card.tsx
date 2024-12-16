@@ -47,9 +47,9 @@ export default function PortalDepartamentCard(
           </p>
 
           <PortalDepartamentModal data={props}>
-            <a className="order-2 self-start mt-4 text-sm font-semibold h-6 cursor-pointer hover:text-primary">
+            <span className="order-2 self-start mt-4 text-sm font-semibold h-6 cursor-pointer hover:text-primary">
               {t("base.see_more")}
-            </a>
+            </span>
           </PortalDepartamentModal>
         </div>
 
