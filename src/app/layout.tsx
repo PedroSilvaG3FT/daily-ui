@@ -43,7 +43,12 @@ export const metadata: Metadata = {
     title: `Supicom Indústria e Comércio LTDA`,
     description: `Soluções em fabricação, aluguel e manutenção de máquinas industriais.`,
   },
+
+  robots: "index, follow",
+  publisher: "Pedro Silva",
   icons: { icon: `/images/favicon.png` },
+  alternates: { canonical: `https://www.supicom.com.br` },
+  authors: [{ name: "Supicom", url: `https://www.supicom.com.br` }],
 };
 
 export default async function RootLayout({
@@ -58,6 +63,34 @@ export default async function RootLayout({
     <html lang={locale} suppressHydrationWarning>
       <head>
         <link rel="icon" href="/images/favicon.png" sizes="any" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@type": "Organization",
+              "@context": "https://schema.org",
+              url: "https://www.supicom.com.br",
+              name: "Supicom Indústria e Comércio LTDA",
+              logo: "https://www.supicom.com.br/images/favicon.png",
+              description: `Fabricação, aluguel e manutenção de máquinas industriais com soluções sob medida para diversos setores.`,
+              address: {
+                "@type": "PostalAddress",
+                addressRegion: "SP",
+                addressCountry: "BR",
+                postalCode: "08599-645",
+                addressLocality: "Itaquaquecetuba",
+                streetAddress: "Rod. Alberto Hinoto, 4500 - Jardim Itapua,",
+              },
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+55-11-4645-0552",
+                contactType: "Customer Service",
+              },
+            }),
+          }}
+        />
+
         <GoogleAnalytics
           gaId={enviroments.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID}
         />
