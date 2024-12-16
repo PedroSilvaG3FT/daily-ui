@@ -15,7 +15,7 @@ export const ADMIN_MENU_GROUPS: IMenuGroup[] = [
       { url: `/admin/contato`, title: `Contatos`, icon: ContactRound },
       { url: `/admin/cotacao`, title: `Cotações`, icon: ReceiptText },
       { url: `/admin/noticia`, title: `Notícias`, icon: Newspaper },
-      { url: `/portal`, title: `Acessar Portal`, icon: LaptopMinimal },
+      { url: `/`, title: `Acessar Portal`, icon: LaptopMinimal },
     ],
   },
 ];

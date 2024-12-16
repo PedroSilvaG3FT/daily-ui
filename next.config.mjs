@@ -14,20 +14,12 @@ export default withNextIntl({
     domains: [
       "api.microlink.io",
       "images.unsplash.com",
+      "images.remotePatterns",
       "assets.aceternity.com",
       "firebasestorage.googleapis.com",
     ],
   },
   sassOptions: {
     includePaths: [join(__dirname, "styles")],
-  },
-  async redirects() {
-    return [
-      {
-        source: "/",
-        permanent: true,
-        destination: "/portal",
-      },
-    ];
   },
 });

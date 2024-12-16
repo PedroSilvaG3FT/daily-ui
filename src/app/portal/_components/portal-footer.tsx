@@ -11,7 +11,7 @@ export default function PortalFooter() {
     {
       title: t("portal.footer.site_map"),
       links: [
-        { title: "Home", url: "/portal" },
+        { title: "Home", url: "/" },
         { title: t("base.products"), url: "/portal/produtos" },
         { title: "FAQ", url: "/portal/faq" },
         { title: t("base.contact"), url: "/portal/contato" },
@@ -20,7 +20,7 @@ export default function PortalFooter() {
     {
       title: t("portal.footer.institutional"),
       links: [
-        { title: t("portal.about_us.title"), url: `/portal` },
+        { title: t("portal.about_us.title"), url: `/` },
         { title: `FAQ`, url: `/portal/faq` },
       ],
     },

@@ -11,6 +11,12 @@ import { useTranslations } from "next-intl";
 import Each from "@/_shared/components/app-each";
 import { Button } from "@/_core/components/fragments/button";
 import { Separator } from "@/_core/components/fragments/separator";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: `Supicom - Perguntas Frequentes`,
+  description: `Confira as respostas para as dúvidas mais comuns sobre nossos produtos, serviços e soluções industriais. Encontre informações rápidas e práticas para facilitar sua experiência conosco.`,
+};
 
 export default function FaqPage() {
   const t = useTranslations();

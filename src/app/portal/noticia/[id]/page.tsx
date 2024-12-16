@@ -62,7 +62,7 @@ export default function NewsUpdatePage() {
     <section className="portal-page-container">
       <nav className="flex gap-2 items-center">
         <Button asChild variant="link">
-          <Link className="flex gap-2 items-center" href={`/portal`}>
+          <Link className="flex gap-2 items-center" href={`/`}>
             <ArrowLeft />
             Voltar
           </Link>

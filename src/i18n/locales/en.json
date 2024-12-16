@@ -102,7 +102,7 @@
           "title": "Rigid Twister",
           "description": "This equipment can include modules (cages) with 6, 12, 18 bobbins, and others upon request.\n\nThis machine is designed for twisting copper and aluminum wires or cables using standardized bobbins with a diameter of 630mm, arranged linearly along the main axis in sections called cages.\n\nWe offer a twisting line composed of three stages: one unit with six bobbins, one unit with twelve bobbins, one with eighteen bobbins, and others upon request. Suitable for both cable formation and shielding."
         },
-        "buncher_630_1800": {
+        "buncher": {
           "title": "Buncher's 630 - 1600",
           "description": "The Buncher's are double-twist machines for manufacturing copper and aluminum conductor cables, offering high performance with power ranging from 20KW to 180KW, linear speeds up to 300m/min, and twists up to 5000T/min depending on the equipment.\n\nWe offer Buncher 630, Buncher 800, Buncher 1000, Buncher 1250, and Buncher 1600."
         },

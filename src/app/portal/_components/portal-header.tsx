@@ -22,13 +22,13 @@ export default function PortalHeader() {
   const t = useTranslations();
   const pathname = usePathname();
 
-  const isHome = pathname === "/portal";
+  const isHome = pathname === "/portal" || pathname === "/";
   const isScrolled = useWindowScroll(600);
   const isApplyStyles = isHome ? isScrolled : true;
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const links: IPortalMenuLink[] = [
-    { title: "Home", url: "/portal" },
+    { title: "Home", url: "/" },
     { title: t("base.products"), url: "/portal/produtos" },
     { title: "FAQ", url: "/portal/faq" },
     { title: t("base.contact"), url: "/portal/contato" },
@@ -57,7 +57,7 @@ export default function PortalHeader() {
               "mobile:rounded-none px-8"
             )}
           >
-            <Link href="/portal">
+            <Link href="/">
               <Image
                 width={120}
                 height={120}

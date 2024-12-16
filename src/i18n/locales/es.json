@@ -102,7 +102,7 @@
           "title": "Torcedora Rígida",
           "description": "Este equipo puede contener módulos (jaulas) con 6 bobinas, 12 bobinas, 18 bobinas, y otras bajo consulta.\n\nEsta máquina fue desarrollada para torsión de hilos o cables de cobre y aluminio utilizando bobinas estandarizadas de diámetro de 630mm dispuestas linealmente sobre el eje principal en partes llamadas jaulas.\n\nTenemos línea de torsión compuesta de tres etapas, una unidad con seis bobinas, una unidad con doce bobinas y una con dieciocho bobinas y otras bajo consulta.\nAdecuada tanto para formación de cables como para blindaje."
         },
-        "buncher_630_1800": {
+        "buncher": {
           "title": "Bunchers 630 - 1600",
           "description": "Los Bunchers son máquinas de doble torsión para la fabricación de cables conductores de cobre y aluminio, con alta performance y con potencias que varían entre 20KW a 180KW, con velocidades lineales de hasta 300m/min y torsiones de 5000T/min según el equipo.\n\nTenemos Buncher 630, Buncher 800, Buncher 1000, Buncher 1250, Buncher 1600."
         },

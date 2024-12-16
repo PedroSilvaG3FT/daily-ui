@@ -102,7 +102,7 @@
           "title": "Torcedeira Rígida",
           "description": "Este equipamento pode conter módulos (gaiolas) com 6 bobinas, 12 bobinas, 18 bobinas, e outras sobre consulta.\n\nEsta máquina foi desenvolvida para torção de fios ou cabos de cobre e alumínio utilizando-se bobinas padronizada de diâmetro de 630mm dispostas linearmente sobre o eixo principal em partes chamadas de gaiolas.\n\nTemos linha de torção composta de três estágios, uma unidade com seis bobinas, uma unidade com doze bobinas e uma com dezoito bobinas e outras sobre consulta.\nAdequada tanto para formação de cabos quanto para blindagem."
         },
-        "buncher_630_1800": {
+        "buncher": {
           "title": "Buncher's 630 - 1600",
           "description": "Os Buncher's são maquinas de dupla torção para manufatura de cabos condutores de cobre e alumínio, com alta performance e com potência que variam entre 20KW à 180KW, com velocidades lineares de até 300m/min e torções de 5000T/min de acordo com equipamento.\n\nTemos Buncher 630, Buncher 800, Buncher 1000, Buncher 1250, Buncher 1600."
         },

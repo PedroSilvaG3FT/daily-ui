@@ -31,11 +31,11 @@ export default function useProductData() {
       images: [],
     },
     {
-      slug: `buncher-630-1800`,
-      title: t("portal.product.catalog.buncher_630_1800.title"),
+      slug: `buncher`,
+      title: t("portal.product.catalog.buncher.title"),
       category: getCategoryById(1)!,
       bannerImage: `/images/products/machines/13.jpg`,
-      description: t("portal.product.catalog.buncher_630_1800.description"),
+      description: t("portal.product.catalog.buncher.description"),
       images: [],
     },
     {
