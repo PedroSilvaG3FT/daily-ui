@@ -19,6 +19,7 @@ export class UserModel {
       uid: model.uid || "",
       name: model.name || "",
       email: model.email || "",
+
       creationDate: model.creationDate
         ? Timestamp.fromDate(new Date(model.creationDate))
         : Timestamp.now(),

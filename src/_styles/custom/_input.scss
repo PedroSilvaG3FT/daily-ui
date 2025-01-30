@@ -1,0 +1,23 @@
+input[type="date"]::-webkit-calendar-picker-indicator {
+  @apply absolute left-0 top-0 w-full h-full bg-transparent text-transparent cursor-pointer;
+}
+
+input[type="date"] {
+  @apply relative pl-7;
+}
+
+input[type="date"]::-webkit-datetime-edit {
+  @apply relative left-3;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  margin-top: 16px;
+  margin-left: 12px;
+
+  background: url("/images/icons/calendar.png") no-repeat;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background-size: contain;
+  background-position: center;
+}

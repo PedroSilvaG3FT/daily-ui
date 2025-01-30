@@ -3,10 +3,10 @@
 import { Timestamp } from "firebase/firestore";
 import { authStore } from "@/_store/auth.store";
 import { loadingStore } from "@/_store/loading.store";
-import React, { createContext, useContext, useEffect } from "react";
-import { UserService } from "../firebase/services/user.service";
-import { IUserRegister } from "@/_shared/interface/user.interface";
 import { TokenUtil } from "@/_shared/utils/token.util";
+import { UserService } from "../firebase/services/user.service";
+import React, { createContext, useContext, useEffect } from "react";
+import { IUserRegister } from "@/_shared/interface/user.interface";
 
 interface IAuthContext {
   signOut: () => void;

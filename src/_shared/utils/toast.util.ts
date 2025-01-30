@@ -12,7 +12,10 @@ export class ToastUtil {
     ToastUtil.open(message, { type: "success", ...options });
   }
 
-  public static error(message: string, options: ToastOptions<unknown> = {}) {
+  public static error(
+    message: string = "Ocorreu um erro ao processar a solicitação",
+    options: ToastOptions<unknown> = {}
+  ) {
     ToastUtil.open(message, { type: "error", ...options });
   }
 
